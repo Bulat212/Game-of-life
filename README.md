@@ -1,3 +1,3 @@
 для компиляции нужно прописать 
-gcc -lncurses game_of_life.c
+gcc game_of_life.c -lncurses
 ./a.out < matrix.txt
